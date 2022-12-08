@@ -12,5 +12,7 @@
                     realSize++;
                 }
             }
+            Console.WriteLine("массивы которые состоят из 3 и менее символов:  " + string.Join(", ", result, 0, realSize));
+            Console.ReadKey(true);
             
             
